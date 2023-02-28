@@ -129,7 +129,7 @@ class ProjectSection extends StatelessWidget {
                             children: projectModel.techUsed
                                 .map((e) => Container(
                                       margin: const EdgeInsets.all(10),
-                                      width: 25,
+                                      width: 30,
                                       color:
                                           e.logo == AppConstants.razorPayImage
                                               ? Colors.white

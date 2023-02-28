@@ -15,10 +15,11 @@ double getMobileMaxWidth(BuildContext context) =>
 
 class AppConstants {
   static const linkedInUrl =
-      "https://www.linkedin.com/in/agnel-selvan-328421192/";
-  static const instagramUrl = "https://www.instagram.com/_agnel.selvan_/";
-  static const githubUrl = "https://github.com/AgnelSelvan";
-  static const mediumUrl = "https://medium.com/@agnelselvan";
+      "https://www.linkedin.com/in/jay-sardhara-161804252/";
+  static const instagramUrl =
+      "https://instagram.com/jack_.3435?igshid=NTE5MzUyOTU=";
+  static const githubUrl = "https://github.com/jaysardhara34";
+  static const mediumUrl = "https://medium.com/@jack.sardhara01";
 
   static const _assets = "assets/";
   static const _outputs = "outputs/";
@@ -42,17 +43,17 @@ class AppConstants {
   static const phpImage = _techImages + "php.png";
   static const flaskImage = _techImages + "flask.png";
   static const firebaseImage = _techImages + "firebase.png";
-  static const razorPayImage = _techImages + "razorpay.png";
+  static const razorPayImage = _techImages + "paypal.png";
   static const cPlusImage = _techImages + "c++.png";
   static const swiftImage = _techImages + "swift.png";
   static const sceneKitImage = _techImages + "scenekit.jpeg";
   static const javascriptImage = _techImages + "javascript.png";
 
   static const _projectsImages = _images + "projects/";
-  static const smartStoreImage = _projectsImages + "1.jpeg";
-  static const crossTheRoadImage = _projectsImages + "2.jpeg";
-  static const newsUpImage = _projectsImages + "3.jpeg";
-  static const musicLabImage = _projectsImages + "4.jpeg";
+  static const smartStoreImage = _projectsImages + "khatabook.jpeg";
+  static const crossTheRoadImage = _projectsImages + "video.jpg";
+  static const newsUpImage = _projectsImages + "news.png";
+  static const musicLabImage = _projectsImages + "paypal.jpg";
   static const personalFaceImage = _projectsImages + "5.jpeg";
   static const computerStoreImage = _projectsImages + "6.jpeg";
 

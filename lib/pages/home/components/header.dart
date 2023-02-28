@@ -29,7 +29,7 @@ class HeaderLogo extends StatelessWidget {
               text: TextSpan(
                 children: [
                   TextSpan(
-                    text: "A ",
+                    text: "Jack ",
                     style: GoogleFonts.josefinSans(
                       fontSize: 26.0,
                       fontWeight: FontWeight.bold,
@@ -40,7 +40,7 @@ class HeaderLogo extends StatelessWidget {
                     ),
                   ),
                   TextSpan(
-                    text: "Dev",
+                    text: "Sardhara",
                     style: GoogleFonts.josefinSans(
                       color: kPrimaryColor,
                       fontSize: 26.0,
@@ -91,7 +91,7 @@ class HeaderRow extends StatelessWidget {
         NameOnTap(
           title: "Blogs",
           onTap: () {
-            Utilty.openUrl(AppConstants.mediumUrl);
+            Utilty.openUrl(AppConstants.githubUrl);
           },
           iconData: Icons.article,
         ),
@@ -101,7 +101,7 @@ class HeaderRow extends StatelessWidget {
             Utilty.openUrl(AppConstants.mediumUrl);
           },
           iconData: Icons.light_mode_outlined,
-          isDarkTheme: true,
+          isDarkTheme: false,
         ),
       ];
 

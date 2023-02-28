@@ -33,7 +33,7 @@ List<CarouselItemModel> carouselItems(double carouselContainerHeight) =>
                       height: 18.0,
                     ),
                     Text(
-                      "Agnel Selvan".toUpperCase(),
+                      "JAck SArdhara".toUpperCase(),
                       style: GoogleFonts.josefinSans(
                         fontSize: 40.0,
                         fontWeight: FontWeight.w900,
@@ -47,7 +47,7 @@ List<CarouselItemModel> carouselItems(double carouselContainerHeight) =>
                     Row(
                       children: const [
                         Text(
-                          "Software Engineer, ",
+                          "Flutter Developer, ",
                           style: TextStyle(
                             color: kCaptionColor,
                             fontSize: 15.0,
@@ -66,7 +66,7 @@ List<CarouselItemModel> carouselItems(double carouselContainerHeight) =>
                           width: 2,
                         ),
                         Text(
-                          "Mumbai",
+                          "Surat",
                           style: TextStyle(
                             color: kCaptionColor,
                             fontSize: 15.0,
@@ -118,10 +118,13 @@ List<CarouselItemModel> carouselItems(double carouselContainerHeight) =>
                         .map((e) => InkWell(
                               onTap: e.onTap,
                               child: Container(
-                                width: 20,
-                                height: 20,
+                                width: 22,
+                                height: 22,
                                 margin: const EdgeInsets.all(10),
-                                child: Image.asset(e.title),
+                                child: Image.asset(
+                                  e.title,
+                                  color: kPrimaryColor,
+                                ),
                               ),
                             ))
                         .toList(),
